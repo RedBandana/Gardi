@@ -1,0 +1,13 @@
+Si vous avez déjà installé Gardi sur votre ordinateur,
+vous devez le supprimer avant de le réinstaller.
+
+Deux fichiers sont disponibles pour vous montrer comment faire:
+	"SupprimerGardi.gif" et "InstallerGardi.gif".
+
+Le fichier pour installer l'application se trouve dans le dossier:
+	"GardiFinal" il s'agit de "setup.exe".
+
+Un manuel d'utilisation est disponible : "Gardi - Manuel.pdf".
+Il vous montrera tout ce que vous devez savoir.
+
+Merci d'utiliser Gardi.

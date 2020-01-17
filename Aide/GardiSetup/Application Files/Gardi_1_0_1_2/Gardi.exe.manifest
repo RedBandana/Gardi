@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Gardi.exe" version="1.0.1.2" publicKeyToken="7420c6089bc73b14" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="bin\Debug\images\logo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Gardi" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Gardi.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gardi.exe" size="85464">
+      <assemblyIdentity name="Gardi" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GqUgZsETCv89Kx2jpN7Z3FInAPzA5Vv9lbsUl5l2yCI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="bin\Debug\images\logo.ico" size="3262">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>a6QBRlhLI8fKU2cPA0A0DmuBt5Sb1UEge/ncusCSeXw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Gardi.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-74RKGAU\ANT" issuerKeyHash="f905519c6244f03e80cefeabbd9861fb7f72ce28" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lrvZHAVcjeq5GzQcpS8Ftwc8EXvujnRVyKRugYpSITk=</DigestValue></Reference></SignedInfo><SignatureValue>pImKiW/qKH3/SoEgQVHnL72PniLPYiXC2AzHSwNkJkjd3ixqJaM0RpOmtgjFBfzB4IPqBCvZTAhLf8S/9HdgZKs2dxlB74RV1DTAASdEjTybPiVexAloi5uDW9pIgi4qwS6x79oqh0QicSwu1ocXmiz0VpBq4C2VIDU4eYxHRiE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>t77J45RPDN3fHRY8lIIjpM5y5LqG56y6DqCKbf300GmvD1bUAZJnYihTtGSp8YtsZiLkHSb0USbM+VyapG6YtzXFCUSN3gNmnuu0D31XQfczvOplhrxs9IMAYgRSgoKgjAgrlCK8Z1xZ1mxR6nrRyeIFiPBerws3xdV8H4kDOIU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3921528a816ea4c855748eee7b113c07b7052fa51c341bb9ea8d5c051cd9bb96" Description="" Url=""><as:assemblyIdentity name="Gardi.exe" version="1.0.1.2" publicKeyToken="7420c6089bc73b14" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-74RKGAU\ANT</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZAEUTI5s6qRW3Ud+C/sOmi2ioP/WxW1Vn789DbWbBKA=</DigestValue></Reference></SignedInfo><SignatureValue>Bdl9LMpaTTCVbWhtZKOhtlcdnt4R/7PnOxTNnqIeE10EtDLZXx0zcoBD6Uqq4LOw8cU9EVk0vCuKAQqaoCSZMDyTAvkAr2+VSKB34ept8DPChSI4R7PI2tidJm7EBGrq4fk0HEB1HNO+KF4B7C7tzsiUETm/E8qR5KVcPbFy1Cs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>t77J45RPDN3fHRY8lIIjpM5y5LqG56y6DqCKbf300GmvD1bUAZJnYihTtGSp8YtsZiLkHSb0USbM+VyapG6YtzXFCUSN3gNmnuu0D31XQfczvOplhrxs9IMAYgRSgoKgjAgrlCK8Z1xZ1mxR6nrRyeIFiPBerws3xdV8H4kDOIU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQF1maw0YG76xD9A1lIYTkijANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYARABFAFMASwBUAE8AUAAtADcANABSAEsARwBBAFUAXABBAE4AVDAeFw0xOTEwMDIxNTQ2MDJaFw0yMDEwMDEyMTQ2MDJaMDExLzAtBgNVBAMeJgBEAEUAUwBLAFQATwBQAC0ANwA0AFIASwBHAEEAVQBcAEEATgBUMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3vsnjlE8M3d8dFjyUgiOkznLkuobnrLoOoIpt/fTQaa8PVtQBkmdiKFO0ZKnxi2xmIuQdJvRRJsz5XJqkbpi3NcUJRI3eA2ae67QPfVdB9zO86mWGvGz0gwBiBFKCgqCMCCuUIrxnXFnWbFHqetHJ4gWI8F6vCzfF1XwfiQM4hQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAAxJCe1MkhCylcpfLHvZT11Rcq5qt4a62lFJSWT2qmVt8m2ga8XMup6X61a1h05pTYPiewuce8eZiXCMOsIV7MGnavUQ95/W7l1CIJXvqkd0nzSjBwqL1HN9PApYM7cOmzoyAeNuXtbIcsp/mYu987U42thdT4wHLzj4SGg3Y10R</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
